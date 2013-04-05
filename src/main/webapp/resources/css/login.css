@@ -1,0 +1,42 @@
+#loginWrap {
+	margin: 0px auto; padding: 0px; width: 900px;
+}
+#loginMain {
+	background: url("../images/loginbg.png") no-repeat; margin: 86px 0px 0px; padding: 0px; width: 900px; height: 520px; float: left;
+}
+#loginLogin {
+	background: url("../images/loginicon.png") no-repeat 207px top; margin: 196px 0px 0px; padding: 0px 70px 0px 207px; width: 204px; height: 127px; float: left;
+}
+#loginhead {
+	background: url("../images/loginHead.png") no-repeat; margin: 169px 0px 0px; padding: 0px; width: 108px; height: 36px; float: left;
+}
+#loginform {
+	margin: 4px 0px 0px; padding: 0px 217px 0px 0px; width: 200px; float: left;
+}
+#loginform label {
+	margin: 0px; padding: 0px 217px 0px 0px; width: 200px; float: left;
+}
+#loginform label input {
+	background: url("../images/loginTxt.png") no-repeat; margin: 14px 0px 0px; padding: 3px 0px 0px 10px; border: 0px currentColor; width: 173px; height: 19px; color: rgb(255, 255, 255); line-height: 16px; font-family: Arial; font-size: 12px; font-style: italic; float: left;
+}
+#loginform label input:focus {
+	background: url("../images/loginTxtFocus.png") no-repeat;
+}
+#loginform label a {
+	background: url("../images/signinbutton.png") no-repeat; margin: 14px 0px 0px; padding: 3px 0px 0px; width: 93px; height: 20px; text-align: center; color: rgb(255, 255, 255); line-height: 16px; font-family: Arial; font-size: 12px; text-decoration: none; float: left;
+}
+#loginform label a:active {
+	background: url("../images/signinbuttonfocus.png") no-repeat;
+}
+#loginform .list {
+	margin: 14px 0px 0px; padding: 0px; width: 200px; float: left;
+}
+#loginform .list a {
+	margin: 0px; padding: 0px; width: auto; color: rgb(255, 255, 255); line-height: 16px; font-family: Arial; font-size: 12px; font-style: italic; text-decoration: none; float: left;
+}
+#loginform .list a:hover {
+	text-decoration: underline;
+}
+#loginform .list .space {
+	margin: 0px; padding: 0px; width: 20px; height: 10px; float: left;
+}
